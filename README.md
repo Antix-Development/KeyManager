@@ -8,7 +8,7 @@ KeyManager is a class to manage key presses in Gideros. With it you can register
 
 -- Example of how to use thew KeyManager class
 
-local keys = Keys.new()
+local keys = KeyManager.new()
  
 keys:registerDown(KeyCode.E, function()
   print("e is down ")
