@@ -6,7 +6,7 @@ KeyManager is a class to manage key presses in Gideros. With it you can register
 
 ```Lua
 
--- Example of how to use thew KeyManager class
+-- Example use
 
 local keys = KeyManager.new()
  
