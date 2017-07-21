@@ -1,4 +1,5 @@
-#KeyManager
+# KeyManager
+
 A simple key manager for Gideros
 
 KeyManager is a class to manage key presses in Gideros. With it you can register a callback to be executed when a key is pressed or released, and determine the key held state of any key at any time.
