@@ -1,4 +1,3 @@
-```Lua
 
 KeyManager = Core.class()
 
@@ -53,4 +52,3 @@ function KeyManager:state(k) -- return state of key
   end
   return false
 end
-```
