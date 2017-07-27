@@ -11,16 +11,16 @@ function KeyManager:init()
     if k then
       k.state = true
       if k.onDown then k.onDown() end
-    else
-      keys[e.Keycode] = {state = true}
     end
   end)
 
   stage:addEventListener(Event.KEY_UP, function(e) -- key up listener
     local keys = self.keys
     local k = keys[e.keyCode]
-    k.state = false
-    if k.onUp then k.onUp() end
+    if k then
+      k.state = false
+      if k.onUp then k.onUp() end
+    end
   end)
 
 end
