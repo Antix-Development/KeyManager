@@ -10,7 +10,7 @@ hist:   v1.0.1 (31/7/2017)
         added abilty to enable / disable the manager
 --]]
 
-Keys = Core.class()
+KeyManager = Core.class()
 
 function KeyManager:init()
 
